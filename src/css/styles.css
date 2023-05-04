@@ -5,8 +5,24 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+/* @import url('./vite-promo.css'); */
+/* ОЛЯ */
 @import url('./header.css');
+@import url('./burger_menu.css');
+/* НАТАЛЯ */
+@import url('./hero.css');
+/* ВАСИЛЬ */
+@import url('./about_us.css');
+/* ЛІЗА */
+@import url('./catalog.css');
+/* ЮРА */
+@import url('./buy_now.css');
+/* МАРИНА */
+@import url('./new_watches.css');
+/* ІВАН */
+@import url('./sale.css');
+/* СОЛОМІЯ */
+@import url('./footer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,3 +39,29 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+/* .container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768x;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1176px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+} */
