@@ -5,7 +5,7 @@
   |============================
 */
 @import url('./reset.css');
-/* @import url('./vite-promo.css'); */
+
 /* ОЛЯ */
 @import url('./header.css');
 @import url('./burger_menu.css');
@@ -38,6 +38,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  -slider-bg-color: #1e2827;
+  -invent-color: #fff;
+  -primary-color: #141414;
 }
 
 /* .container {
@@ -45,7 +49,9 @@
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
+
+/* 
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
