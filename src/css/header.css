@@ -1,57 +1,6 @@
-:root {
-  -slider-bg-color: #1e2827;
-    -invent-color: #fff;
-    -primary-color: #141414;
-}
 
-/*скидання початкових відступів*/
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ol,
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-}
-
-button {
-  cursor: pointer;
-}
-
-a {
-  display: block;
-}
-
-/*----------------------------------------------*/
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-body {
-  font-family: var(--main-font);
-  font-weight: 400;
-  color: var(--contact-color);
-}
 
 .container {
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
   /*width: 1176px;*/
@@ -61,6 +10,8 @@ body {
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -73,11 +24,12 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1176px;
+.container {
+    width: 1212px;
     padding-left: 18px;
     padding-right: 18px;
   }
+  
 }
 
 @media screen and (max-width: 374px) {
@@ -89,16 +41,16 @@ body {
 /*-------------хедер----------------------------------*/
 
 .page-header-container {
+  /*position: absolute;*/
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .page-header {
-position: absolute;
-  padding-top: 34px;
-  padding-bottom: 34px;
-  background-color: var(-primary-color);
+/*position: relative;*/
+padding-top: 34px;
+  background-color: var(--primary-color);
 }
 
 .page-nav {
@@ -119,7 +71,7 @@ position: absolute;
   font-size: 12px;
   line-height: 1;
   letter-spacing: -0.03em;
-  color: var(-invent-color);
+  color: var(--invent-color);
   margin-right: 80px;
 }
 
@@ -143,8 +95,8 @@ position: absolute;
   line-height: 1.33;
   text-align: center;
   text-transform: uppercase;
-  color: var(-invent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--invent-color);
+  transition: color var(--transition-time-cubic);
 }
 
 /*.menu-link:hover,
@@ -165,11 +117,12 @@ position: absolute;
   display: block;
   text-align: center;
   min-width: 159px;
-  background-color: #1E2827;
+  color: var(--invent-color);
+  background-color: var(--slider-bg-color);
   border-radius: 8px;
   border: none;
   padding: 18px 35px 18px 36px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--transition-time-cubic), color 250ms var(--transition-time-cubic);
 }
 
 /*.contact-phone-number:hover,
@@ -198,12 +151,13 @@ position: absolute;
     align-items: center;
     justify-content: space-between;
   }
+
 }
 
 /*---------------------------планшет-----------------*/
 @media screen and (min-width: 768px) {
 
-  .mobile-menu-open {
+  .mobile-menu-open-icon {
     display: none;
   }
 
@@ -230,8 +184,11 @@ position: absolute;
 /*---------------------------комп-----------------*/
 @media screen and (min-width: 1280px) {
 
-
+.container{
+width: 1212px;
 }
+}
+
 
 /*---------------------------/комп-----------------*/
 /*-------------/хедер----------------------------------*/
