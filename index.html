@@ -44,7 +44,7 @@
     />
     
     <script type="module" crossorigin src="/team-apocalypse/assets/index-0adaacf6.js"></script>
-    <link rel="stylesheet" href="/team-apocalypse/assets/index-da79c6b7.css">
+    <link rel="stylesheet" href="/team-apocalypse/assets/index-76ce250c.css">
   </head>
   <body>
     <header>
@@ -723,13 +723,83 @@
 
             </ul>
 
-            <button type="button" class="buy-button">BUY NOW</button>
+            <button type="button" class="buy-button" data-modal-open>BUY NOW</button>
         </div>
     </section>
 
 
       <!-- ЮРА -->
-      
+      <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" data-modal-close class="modal-close-btn">
+      <svg class="modal-close-icon" width="24" height="24">
+        <use href="/team-apocalypse/assets/icons-05337ffe.svg#icon-mobile-x"></use>
+      </svg>
+    </button>
+    <div class="modal-left">
+      <img src="./img/watch-modal.png" alt="Clock" width="276" height="325" />
+      <p class="modal-left-text">Tube Watch S42 Date Steel With Black...</p>
+      <p class="modal-left-price">€395</p>
+    </div>
+    <div class="modal-right">
+      <form class="modal-form">
+        <label class="modal-form-field">
+          <span class="modal-form-field-desk">Full name</span>
+          <span class="modal-form-input-wrapper">
+            <input
+              type="text"
+              name="user_name"
+              class="modal-form-input"
+              placeholder="Enter your full name"
+              required
+              pattern="^[a-zA-Zа-яА-Я]+$"
+            />
+          </span>
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-field-desk">Email</span>
+          <span class="modal-form-input-wrapper">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              name="user_email"
+              class="modal-form-input"
+              required
+            />
+          </span>
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-field-desk">Card number</span>
+          <span class="modal-form-input-wrapper">
+            <input
+              type="card"
+              name="user_card"
+              class="modal-form-input"
+              placeholder="Enter card"
+              required
+              pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+              title="xxxx-xxxx-xxxx-xxxx"
+            />
+          </span>
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-input-desk">Comments</span>
+          <textarea
+            name="user_message"
+            class="modal-form-message"
+            placeholder="Enter your text"
+          ></textarea>
+        </label>
+        <button type="submit" class="modal-form-btn">submit</button>
+        <p class="privacy-text">
+          By clicking on “Submit” button, you agree to our Privacy Policy, and
+          allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
       <!-- МАРИНА -->
       <!----------------------------------New watches----------------------------------->
 <section class="new-watches">
