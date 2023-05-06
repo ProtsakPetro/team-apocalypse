@@ -29,8 +29,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 375px;
-        padding-left: 20px;
-        padding-right: 20px;
+    
         padding-top: 0;
         padding-bottom: 80px;
 
@@ -276,8 +275,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 375px;
-        padding-left: 20px;
-        padding-right: 20px;
+
         padding-top: 0;
         padding-bottom: 80px;
         padding-top: 80px;
@@ -497,8 +495,7 @@
         section.catalog {
 
             width: 768px;
-            padding-left: 32px;
-            padding-right: 32px;
+            
 
             padding-bottom: 128px;
             padding-top: 128px;
@@ -528,8 +525,7 @@
         section.catalog {
 
             width: 1280px;
-            padding-left: 52px;
-            padding-right: 52px;
+            
 
             padding-bottom: 80px;
             padding-top: 80px;
