@@ -28,6 +28,16 @@
   --slider-bg-color: #1e2827;
   --invent-color: #fff;
   --primary-color: #141414;
+
+  --transition-time-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* --green-color-main: #1e2827;
+  --white-color-main: #fff;
+  --primary-color-main: #141414;
+
+  --green-color-footer: #1e2827;
+  --white-color-footer: #fff;
+  --primary-color-footer: #141414; */
 }
 
 /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
