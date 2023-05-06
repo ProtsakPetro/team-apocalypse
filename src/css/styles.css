@@ -31,50 +31,33 @@
   --accent-color: #c6cdd1;
   --transition-time-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* --green-color-main: #1e2827;
+  --green-color-main: #1e2827;
   --white-color-main: #fff;
   --primary-color-main: #141414;
---accent-color:#c6cdd1;
-
+  --accent-color-main: #c6cdd1;
 
   --green-color-footer: #1e2827;
   --white-color-footer: #fff;
-
-  --primary-color-footer: #141414; 
-  --accent-color:#c6cdd1;*/
-
-  
-
-  --primary-color-footer: #141414; */
+  --primary-color-footer: #141414;
+  --accent-color-footer: #c6cdd1;
+ 
 
   font-family: Epilogue, Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
-
   line-height: 24px;
   font-weight: 400;
-  /color: #242424;
-  background-color: rgba(255, 255, 255, 0.87); */
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
 
   /* font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  */
-
   -webkit-text-size-adjust: 100%;
-}
-
-
-  --slider-bg-color: #1e2827;
-  --invent-color: #fff;
-  --primary-color: #141414;
 
 }
 
 .container {
-  width: 100%;
-
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
