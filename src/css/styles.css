@@ -40,6 +40,7 @@
   --white-color-footer: #fff;
   --primary-color-footer: #141414;
   --accent-color-footer: #c6cdd1;
+ 
 
   font-family: Epilogue, Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -52,9 +53,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- */
-
   -webkit-text-size-adjust: 100%;
+
 }
 
 .container {
