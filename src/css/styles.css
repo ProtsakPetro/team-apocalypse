@@ -25,7 +25,22 @@
 @import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  --slider-bg-color: #1e2827;
+  --invent-color: #fff;
+  --primary-color: #141414;
+
+  --transition-time-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* --green-color-main: #1e2827;
+  --white-color-main: #fff;
+  --primary-color-main: #141414;
+
+  --green-color-footer: #1e2827;
+  --white-color-footer: #fff;
+  --primary-color-footer: #141414; */
+}
+
+/* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -39,17 +54,53 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%; */
 
+
   --slider-bg-color: #1e2827;
   --invent-color: #fff;
   --primary-color: #141414;
 }
 
+
 .container {
+  width: 100%;
+
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+@font-face {
+  font-family: 'Epilogue';
+  src: local('Epilogue'), url(/fonts/Epilogue-Light.woff2) format('woff2'),
+    url(/fonts/Epilogue-Light.woff) format('woff'),
+    url(/fonts/Epilogue-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: local('Epilogue'), url(/fonts/Epilogue-Light.woff2) format('woff2'),
+    url(/fonts/Epilogue-Light.woff) format('woff'),
+    url(/fonts/Epilogue-Light.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: local('Epilogue'), url(/fonts/Epilogue-Light.woff2) format('woff2'),
+    url(/fonts/Epilogue-Light.woff) format('woff'),
+    url(/fonts/Epilogue-Light.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 /* @media screen and (min-width: 375px) {
   .container {
@@ -58,7 +109,7 @@
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768x;
+    width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -66,7 +117,7 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1176px;
+    width: 1212px;
     padding-left: 18px;
     padding-right: 18px;
   }
