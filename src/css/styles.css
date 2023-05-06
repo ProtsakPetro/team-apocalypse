@@ -29,7 +29,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
+  /* 
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
 
@@ -37,24 +37,21 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; */
 
-  -slider-bg-color: #1e2827;
-  -invent-color: #fff;
-  -primary-color: #141414;
+  --slider-bg-color: #1e2827;
+  --invent-color: #fff;
+  --primary-color: #141414;
 }
 
-
-
-/* .container {
+.container {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 
-/* 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .container {
     width: 375px;
   }
@@ -66,6 +63,7 @@
     padding-right: 32px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .container {
     width: 1176px;
