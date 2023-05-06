@@ -1,3 +1,249 @@
+/*@media screen and (max-width: 320px) {
+.list {
+        list-style: none;
+    }
+
+    .link {
+        text-decoration: none;
+
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+
+    .container {}
+
+    section.catalog {
+        margin-left: auto;
+        margin-right: auto;
+        width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0;
+        padding-bottom: 80px;
+
+        background: #F5F5F5;
+    }
+
+    .section-name {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        color: #1E2827;
+
+        margin-bottom: 40px;
+
+    }
+
+    .whatch-name {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #141414;
+
+        margin-bottom: 4px;
+    }
+
+    .watch-price {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.167;
+        letter-spacing: -0.02em;
+        color: rgba(20, 20, 20, 0.5);
+    }
+
+    .overlay img {
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    li.whatches {
+        margin-bottom: 40px;
+    }
+
+    .whatch-name {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #141414;
+
+        margin-bottom: 4px;
+
+    }
+
+    .watch-price {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.167;
+        letter-spacing: -0.02em;
+
+        color: rgba(20, 20, 20, 0.5);
+    }
+
+    .buy-button {
+
+        color: #fff;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+
+
+        background-color: #1E2827;
+        cursor: pointer;
+
+
+        display: block;
+        margin-left: auto;
+        height: 42px;
+        width: 108px;
+        border-radius: 8px;
+        text-align: center;
+        border: 1px solid #1E2827;
+
+    }
+
+    .buy-button:hover,
+    .buy-button:focus {
+        border: 1px solid #fff;
+    }
+
+    .whatch-name {
+        width: 276px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    /*   .whatches:nth-last-child(-n+4) {
+        display: none;
+    }*/
+
+/*---flipper---*/
+
+/*  .flip-card {
+        background-color: transparent;
+        width: 335px;
+        height: 360px;
+        perspective: 1000px;
+        margin-bottom: 14px;
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    .flip-card:hover .flip-card-inner,
+    .flip-card:focus .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .flip-card-back {
+        background: #1E2827;
+        border-radius: 8px;
+
+        transform: rotateY(180deg);
+
+        padding-top: 40px;
+        padding-right: 60px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+    }
+
+    .flip-card-front {
+        padding: 43px 30px;
+    }
+
+    /*---flipper-end---*/
+/*---overlay---*/
+/*----какой кубик?---*/
+/* .overlay-whatches {
+        position: absolute;
+
+        width: 100%;
+        height: 100%;
+        background: #1E2827;
+        border-radius: 8px;
+
+        transform: translateY(100%);
+        transition-property: transform, opacity;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        padding-top: 40px;
+        padding-right: 60px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+    }
+
+    .link-whatches:hover .overlay-whatches {
+        opacity: 1;
+
+        transform: translateY(0%);
+    }
+
+    .overlay {
+        position: relative;
+        overflow: hidden;
+        width: 335px;
+        height: 360px;
+
+        margin-bottom: 14px;
+    }
+
+    .over-h {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #fff;
+
+        margin-bottom: 10px;
+    }
+
+    .over-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.01em;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .over-text.descr {
+        margin-bottom: 16px;
+    }
+}*/
 @media screen and (min-width: 375px) {
 
     .list {
@@ -34,6 +280,7 @@
         padding-right: 20px;
         padding-top: 0;
         padding-bottom: 80px;
+        padding-top: 80px;
 
         background: #F5F5F5;
     }
@@ -244,7 +491,7 @@
     .over-text.descr {
         margin-bottom: 16px;
     }
-
+}
     @media screen and (min-width: 768px) {
 
         section.catalog {
@@ -254,7 +501,7 @@
             padding-right: 32px;
 
             padding-bottom: 128px;
-
+            padding-top: 128px;
             background: #F5F5F5;
         }
 
@@ -285,7 +532,7 @@
             padding-right: 132px;
 
             padding-bottom: 80px;
-
+            padding-top: 80px;
             background: #F5F5F5;
         }
 
