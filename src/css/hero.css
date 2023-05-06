@@ -19,9 +19,9 @@
 }
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1440px;
-    padding-left: 132px;
-    padding-right: 132px;
+    width: 1212px;
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
 
@@ -133,12 +133,7 @@
     margin-bottom: 40px;
   }
 }
-@media screen and (max-width: 375px) {
-  html,
-  body {
-    overflow-x: hidden;
-  }
-}
+
 /*---------------------Tablet-------------------------*/
 
 @media screen and (min-width: 768px) {
@@ -215,7 +210,7 @@
   .hero-text-wrap {
     position: absolute;
     top: 0;
-    right: 132px;
+    right: 18px;
   }
   .buttons-wrap {
     margin-bottom: 0;
