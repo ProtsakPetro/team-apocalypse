@@ -13,14 +13,18 @@ ul {
 }
 img {
     display: block;
+    max-width: none;
+    min-width: auto;
 }
 .sale-container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 375px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .sale-section {
-
+    margin-right: auto;
+    margin-left: auto;
+    width: 375px;
 }
 .sale-header {
     font-family: 'Epilogue';
@@ -78,9 +82,9 @@ img {
     background: #141414;
 }
 .sale-gallery-list-photo-first {
-    margin-left: 8px;
     width: 64px;
     height: 80px;
+    margin-left: 8px;
 }
 .sale-gallery-list-photo {
     width: 80px;
@@ -232,14 +236,19 @@ img {
 }
 @media screen and (min-width: 375px) {
     .sale-container {
-        max-width: 375px;
+        width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media screen and (min-width: 768px) {
     .sale-container {
         max-width: 768px;
-        margin-left: 98px;
-        margin-right: auto;
+        padding-left: 98px;
+        padding-right: 98px;
+    }
+    .sale-section {
+        width: 768px;
     }
     .sale-header {
         font-family: 'Epilogue';
@@ -249,6 +258,7 @@ img {
         line-height: 44px;
         letter-spacing: -0.02em;
         color: #1E2827;
+        margin-left: 32px;
     }
     .sale-gallery-list-item {
         width: 146px;
@@ -256,9 +266,9 @@ img {
         background: #141414;
     }
     .sale-gallery-list-photo-first {
-        margin-left: 12px;
         width: 122px;
         height: 146px;
+        margin-left: 12px;
     }
     .sale-gallery-list-photo {
         width: 146px;
@@ -411,10 +421,19 @@ img {
 }
 @media screen and (min-width: 1280px) {
     .sale-container {
-        max-width: 1280px;
+        max-width: 1212px;
         display: flex;
-        align-items: center;
-    }
+        padding-left: 230px;
+        padding-right: 230px;
+   }
+   .sale-section {
+        width: 1280px;
+        margin-left: 0;
+        margin-right: 0;
+   }
+   .sale-gallery-block {
+        gap: 0;
+   }
     .sale-header {
         font-family: 'Epilogue';
         font-style: normal;
@@ -440,12 +459,11 @@ img {
     }
     .sale-description {
         flex: 1;
-        margin-top: 80px;
     }
     .sale-gallery-list-photo-first {
-        margin-left: 12px;
         width: 122px;
         height: 146px;
+        margin-left: 12px;
     }
     .sale-gallery-list-photo {
         width: 146px;
