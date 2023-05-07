@@ -4,10 +4,10 @@ img{
     height: auto;
     width: 100%;
 }
-.new-watches {
+/* .new-watches {
     padding-top: 80px;
     padding-bottom: 80px;
-}
+} */
 .container {
    padding-right: 20px;
     padding-left: 20px;
@@ -75,12 +75,12 @@ margin-bottom: 8px;
         
        
 }
-    .new-watches {
+    /* .new-watches {
         padding-top: 128px;
         padding-bottom: 128px;
        
         
-    } 
+    }  */
    
     .nw-under-tittle{
         width: 448px;
@@ -116,10 +116,10 @@ color: #1E2827;
         padding-right: 18px;
        
     }
-    .new-watches {
+    /* .new-watches {
         padding-top: 80px;
         padding-bottom: 80px;
-    }
+    } */
     .new-watches-container {
         width: 100%;
         height: 772px;
