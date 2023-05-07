@@ -1,17 +1,18 @@
 :root {
-    --white-color: #ffffff;
-    --text-footer-color: #c6cdd1;
-    --footer-background: #1e2827;
+    --green-color-footer: #1e2827;
+    --white-color-footer: #fff;
+    --primary-color-footer: #141414;
+    --accent-color-footer: #c6cdd1;
 }
 
-.container {
+.footer-container {
     padding: 40px 20px 20px;
     width: 100%;
 }
 
 .footer {
-    background-color: var(--footer-background);
-    color: var(--white-color);
+    background-color: var(--green-color-footer);
+    color: var(--white-color-footer);
 }
 
 .footer-tel {
@@ -53,7 +54,7 @@
     line-height: 1.2;
     font-style: normal;
     letter-spacing: -0.02em;
-    color: var(--text-footer-color);
+    color: var(--accent-color-footer);
     display: inline-block;
 }
 
@@ -63,7 +64,7 @@
     line-height: 1.2;
     font-style: normal;
     letter-spacing: -0.02em;
-    color: var(--text-footer-color);
+    color: var(--accent-color-footer);
     margin-bottom: 14px;
 }
 
@@ -102,15 +103,14 @@
 }
 
 @media screen and (min-width: 375px) {
-    .container {
+    .footer-container {
         width: 375px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
+    .footer-container {
         width: 768px;
-        /*padding: 80px 32px 20px;*/
     }
 
     .tablet-footer-flex {
@@ -180,7 +180,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .footer-container {
         width: 1280px;
     }
 
