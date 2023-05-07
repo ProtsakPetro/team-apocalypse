@@ -1,3 +1,8 @@
+.container {
+  width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .about-section {
   display: flex;
   flex-direction: column;
@@ -10,10 +15,8 @@
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-
   display: flex;
   flex-direction: column;
-  gap: 40px;
 }
 
 .about-text-container {
@@ -23,14 +26,10 @@
 }
 
 .about-titl {
-  font-family: 'Epilogue';
-  font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 1.25;
-
   letter-spacing: -0.02em;
-
   color: #1e2827;
 }
 
@@ -48,11 +47,11 @@
   display: block;
   width: 335px;
   height: 365px;
-
   margin-right: auto;
   margin-left: auto;
 }
-.fg {
+.gif-content {
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -61,17 +60,25 @@
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+  .about-section{margin-top: 64px;}
+.container{padding: 0;}
+  .about-container {
+    
+    max-width: 768px;
     flex-wrap: wrap;
   }
 
-  .about-container {
-    max-width: 768px;
-    flex-direction: row;
+  .text-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
   }
   .about-text-container {
     flex-direction: row;
   }
   .about-titl {
+    width: 174px;
     font-size: 40px;
     line-height: 1.1;
   }
@@ -81,28 +88,28 @@
   .about-text-two {
     max-width: 250px;
   }
+  .gif-content{margin-top: 40px;}
   .container-media {
     width: 704px;
     height: 465px;
+    
   }
 }
 @media screen and (min-width: 1280px) {
+  .about-section{margin-top: 80px;}
   .container {
-    width: 1176px;
+    width: 1212px;
     padding-left: 18px;
     padding-right: 18px;
   }
 
   .about-container {
     max-width: 1280px;
+  }
+  .text-wrap {
     gap: 110px;
   }
-  .about-titl {
-    font-family: 'Epilogue';
-    font-style: normal;
 
-    width: 174px;
-  }
   .about-text-container {
     gap: 40px;
   }
@@ -116,11 +123,11 @@
   .container-media {
     max-width: 892px;
     height: 500px;
-    margin-left: auto;
-    margin-top: 40px;
+    margin-left: auto;    
     margin-right: 0;
   }
-  .fg {
+  .gif-content {
     margin-right: 0;
+    margin-left: 284px;
   }
 }
