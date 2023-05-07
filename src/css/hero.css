@@ -63,6 +63,11 @@
   cursor: pointer;
   transition: opacity 250ms var(--transition-time-cubic);
 }
+
+.button-next,
+.button-prev {
+  border: 1px solid var(--invent-color);
+}
 /*---------------------Hover for buttons-navigation---------------*/
 .button-navigation:hover,
 .button-navigation:focus {

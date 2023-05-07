@@ -122,8 +122,9 @@ color: #1E2827;
     } */
     .new-watches-container {
         width: 100%;
-        height: 772px;
-        padding: 80px 132px;
+        height: 612px;
+        padding-right: 132px;
+        padding-left: 132px;
     }
 
     .nw-under-tittle{
@@ -135,6 +136,7 @@ color: #1E2827;
     }
     .nw-picture-item {
    width: calc((100% - 24px) / 2);
+   height: auto;
   
     }
     .nw-picture-img{

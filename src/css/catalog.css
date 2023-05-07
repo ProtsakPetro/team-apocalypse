@@ -27,14 +27,14 @@
     padding-right: 0;
   }
 
-.catalog {
+  .catalog {
     margin-left: auto;
     margin-right: auto;
     width: 320px;
 
     padding-top: 0;
 
-    background: #f5f5f5;
+    background: #fdfdfd;
   }
 
   .section-name {
@@ -210,7 +210,7 @@
     padding-right: 20px;
   }
 
- .catalog {
+  .catalog {
     width: 375px;
   }
 
@@ -232,8 +232,6 @@
 
   .catalog {
     width: 768px;
-
-    background: #f5f5f5;
   }
 
   .catalog-whatches {
@@ -259,7 +257,7 @@
     padding-right: 18px;
   }
 
- .catalog {
+  .catalog {
     width: 1212px;
     background: #f5f5f5;
   }
@@ -304,4 +302,3 @@
     width: 276px;
   }
 }
-
