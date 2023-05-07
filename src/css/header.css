@@ -45,9 +45,6 @@
 }
 
 .page-header {
-  /*position: relative;*/
-  padding-top: 34px;
-  padding-bottom: 34px;
   background-color: var(--primary-color);
 }
 
@@ -59,9 +56,10 @@
 .mod {
   margin-top: 207px;
 }
-/*.logo{
+.logoheader{
 display: flex;
-}*/
+align-items: end;
+}
 .logo-icon {
   width: 14px;
   height: 14px;
@@ -142,6 +140,10 @@ display: flex;
 
   .contact-phone-number {
     display: none;
+  }
+  .page-header{
+      padding-top: 34px;
+      padding-bottom: 34px;
   }
 }
 

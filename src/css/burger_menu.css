@@ -22,13 +22,14 @@
 .mobile-menu_container {
     position: fixed;
     padding-left: 34px;
-    padding-top: 20px;
+    padding-top: 34px;
     height: 100%;
     top: 0;
     right: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--slider-bg-color);
 }
 
 .mobile-blosk-vur {
@@ -89,4 +90,11 @@
 
 .mobile-menu_close-icon {
     fill: var(-invent-color);
+}
+.links{
+    color: var(--invent-color);
+}
+.logomobheader{
+    display: flex;
+    align-items: end;
 }
