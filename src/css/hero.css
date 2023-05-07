@@ -127,9 +127,6 @@
   margin-bottom: 40px;
   width: 248px;
 }
-.swiper-icon {
-  stroke: rgba(0, 0, 0 0.5);
-}
 
 @media screen and (max-width: 767px) {
   .swiper-buttons-tablet {
