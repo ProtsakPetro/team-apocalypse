@@ -29,7 +29,6 @@
 /*-----------------Mobile------------------*/
 .hero {
   background-color: var(--primary-color);
-  /* padding-bottom: 40px;*/
   padding-top: 69px;
 }
 .hero-title {
@@ -83,7 +82,7 @@
   display: flex;
   width: 266px;
   height: 32px;
-
+  align-items: flex-end;
   justify-content: space-between;
 
   margin-bottom: 40px;
