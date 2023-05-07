@@ -29,8 +29,8 @@
 /*-----------------Mobile------------------*/
 .hero {
   background-color: var(--primary-color);
-  padding-bottom: 40px;
-  padding-top: 76px;
+  /* padding-bottom: 40px;*/
+  padding-top: 69px;
 }
 .hero-title {
   font-weight: 600;
@@ -142,8 +142,8 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 98px;
-    padding-bottom: 64px;
+    padding-top: 80px;
+    /* padding-bottom: 64px;*/
   }
   .swiper-buttons-tablet {
     display: flex;
@@ -193,7 +193,7 @@
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    padding-bottom: 80px;
+    /* padding-bottom: 80px;*/
   }
   .hero-container {
     position: relative;
@@ -215,6 +215,7 @@
     position: absolute;
     top: 0;
     right: 18px;
+    padding-top: 0;
   }
   .buttons-wrap {
     margin-bottom: 0;
