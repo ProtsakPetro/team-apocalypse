@@ -95,7 +95,7 @@
   font-display: swap;
 }
 
-/* @media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
   .container {
     width: 375px;
   }
@@ -114,4 +114,4 @@
     padding-left: 18px;
     padding-right: 18px;
   }
-} */
+}
