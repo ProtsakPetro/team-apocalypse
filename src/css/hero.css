@@ -8,7 +8,6 @@
     width: 375px;
     padding-left: 20px;
     padding-right: 20px;
-    outline: 1px solid turquoise;
   }
 }
 @media screen and (min-width: 768px) {
@@ -16,27 +15,22 @@
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-    outline: 1px solid silver;
   }
 }
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1212px;
-    padding-left: 18px;
-    padding-right: 18px;
+    width: 1440px;
+    padding-left: 132px;
+    padding-right: 132px;
   }
 }
-.header-page {
-  width: 100%;
-  position: absolute;
-  padding-top: 29px;
-}
+
 /*------------------Hero------------------*/
 /*-----------------Mobile------------------*/
 .hero {
   background-color: var(--primary-color);
   padding-bottom: 40px;
-  padding-top: 122px;
+  padding-top: 76px;
 }
 .hero-title {
   font-weight: 600;
@@ -71,6 +65,10 @@
   width: 32px;
   height: 32px;
 }
+.button-next,
+.button-prev {
+  border: 1px solid var(--invent-color);
+}
 
 .buttons-wrap {
   display: flex;
@@ -103,7 +101,7 @@
   gap: 6px;
 }
 .swiper-text-list::before {
-  content: "";
+  content: '';
   width: 32px;
   height: 1px;
   background-color: var(--invent-color);
@@ -118,10 +116,10 @@
   line-height: 1.29;
 
   letter-spacing: -0.02em;
-
+  margin-left: auto;
   color: var(--invent-color);
   margin-bottom: 40px;
-  padding-left: 107px;
+  width: 248px;
 }
 .swiper-icon {
   stroke: rgba(0, 0, 0 0.5);
@@ -131,12 +129,21 @@
   .swiper-buttons-tablet {
     display: none;
   }
+  .hero-text-wrap {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
 /*---------------------Tablet-------------------------*/
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 148px;
+    padding-top: 98px;
     padding-bottom: 64px;
   }
   .swiper-buttons-tablet {
@@ -147,6 +154,7 @@
   }
   .swiper {
     width: 436px;
+    height: 255px;
   }
   .slider-img {
     margin-left: auto;
@@ -174,17 +182,18 @@
   }
   .hero-wrap {
     display: flex;
-    gap: 12px;
+    gap: 20px;
   }
   .hero-text {
     padding-left: 0;
     width: 248px;
-    padding-top: 35px;
+  }
+  .hero-text-wrap {
+    padding-top: 80px;
   }
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    padding-top: 148px;
     padding-bottom: 80px;
   }
   .hero-container {
@@ -206,10 +215,9 @@
   .hero-text-wrap {
     position: absolute;
     top: 0;
-    right: 18px;
+    right: 132px;
   }
   .buttons-wrap {
     margin-bottom: 0;
   }
 }
-
