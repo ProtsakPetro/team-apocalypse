@@ -59,9 +59,9 @@
 .mod {
   margin-top: 207px;
 }
-/*.logo{
+.logoheader{
 display: flex;
-}*/
+}
 .logo-icon {
   width: 14px;
   height: 14px;
@@ -161,7 +161,7 @@ display: flex;
 
   .page-header {
     padding-top: 20px;
-    padding-bottom: 20px;
+   /* padding-bottom: 20px;*/
   }
 
   .mobile-menu {
