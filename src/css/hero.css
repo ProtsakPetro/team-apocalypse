@@ -60,6 +60,7 @@
   align-items: center;
   border-radius: 8px;
   opacity: 0.5;
+  cursor: pointer;
   transition: opacity 250ms var(--transition-time-cubic);
 }
 /*---------------------Hover for buttons-navigation---------------*/
@@ -71,10 +72,6 @@
 .button-navigation-mobile {
   width: 32px;
   height: 32px;
-}
-.button-next,
-.button-prev {
-  border: 1px solid var(--invent-color);
 }
 
 .buttons-wrap {
