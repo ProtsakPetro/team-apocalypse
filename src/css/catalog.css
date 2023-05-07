@@ -1,335 +1,303 @@
 @media screen and (min-width: 320px) {
+  .list {
+    list-style: none;
+  }
 
-    .list {
-        list-style: none;
-    }
+  .link {
+    text-decoration: none;
+  }
 
-    .link {
-        text-decoration: none;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
 
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
-    ul {
-        margin: 0;
-        padding: 0;
+  .container {
+    width: 320px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    }
+  section.catalog {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
 
-    h1,
-    h2,
-    h3,
-    h4,
-    p {
-        margin-top: 0;
-        margin-bottom: 0
-    }
+    padding-top: 0;
 
+    background: #fdfdfd;
+  }
 
-    .container {
-        width: 320px;
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .section-name {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #1e2827;
 
-    section.catalog {
-        margin-left: auto;
-        margin-right: auto;
-        width: 320px;
+    margin-bottom: 40px;
+  }
 
-        padding-top: 0;
+  .whatch-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
 
+    margin-bottom: 4px;
+  }
 
-        background: #fdfdfd;
-    }
+  .watch-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.167;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+  }
 
-    .section-name {
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
-        color: #1E2827;
+  .overlay img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+  }
 
-        margin-bottom: 40px;
+  li.whatches {
+    margin-bottom: 40px;
+  }
 
-    }
+  .whatch-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
 
-    .whatch-name {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.29;
-        letter-spacing: -0.02em;
-        color: #141414;
+    margin-bottom: 4px;
+  }
 
-        margin-bottom: 4px;
-    }
+  .watch-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.167;
+    letter-spacing: -0.02em;
 
-    .watch-price {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.167;
-        letter-spacing: -0.02em;
-        color: rgba(20, 20, 20, 0.5);
-    }
+    color: rgba(20, 20, 20, 0.5);
+  }
 
-    .overlay img {
-        display: block;
-        margin: auto;
-        margin-bottom: 15px;
-    }
+  .buy-button {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
 
-    li.whatches {
-        margin-bottom: 40px;
-    }
+    background-color: #1e2827;
+    cursor: pointer;
 
-    .whatch-name {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.29;
-        letter-spacing: -0.02em;
-        color: #141414;
+    display: block;
+    margin-left: auto;
+    height: 42px;
+    width: 108px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #1e2827;
+  }
 
-        margin-bottom: 4px;
+  .buy-button:hover,
+  .buy-button:focus {
+    border: 1px solid #fff;
+  }
 
-    }
+  .whatch-name {
+    width: 276px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
-    .watch-price {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.167;
-        letter-spacing: -0.02em;
+  .whatches:nth-last-child(-n + 4) {
+    display: none;
+  }
 
-        color: rgba(20, 20, 20, 0.5);
-    }
+  /*---flipper---*/
 
-    .buy-button {
+  .flip-card {
+    background-color: transparent;
+    width: 320px;
+    height: 360px;
+    perspective: 1000px;
+    margin-bottom: 14px;
+  }
 
-        color: #fff;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
 
+  .flip-card:hover .flip-card-inner,
+  .flip-card:focus .flip-card-inner {
+    transform: rotateY(180deg);
+  }
 
-        background-color: #1E2827;
-        cursor: pointer;
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
 
+  .flip-card-back {
+    background: #1e2827;
+    border-radius: 8px;
 
-        display: block;
-        margin-left: auto;
-        height: 42px;
-        width: 108px;
-        border-radius: 8px;
-        text-align: center;
-        border: 1px solid #1E2827;
+    transform: rotateY(180deg);
 
-    }
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
 
-    .buy-button:hover,
-    .buy-button:focus {
-        border: 1px solid #fff;
-    }
+  .flip-card-front {
+    padding: 43px 7.5px;
+  }
 
-    .whatch-name {
-        width: 276px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+  /*---flipper-end---*/
 
-    }
+  .over-h {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #fff;
 
-    .whatches:nth-last-child(-n+4) {
-        display: none;
-    }
+    margin-bottom: 10px;
+  }
 
-    /*---flipper---*/
+  .over-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: rgba(255, 255, 255, 0.5);
+  }
 
-    .flip-card {
-        background-color: transparent;
-        width: 320px;
-        height: 360px;
-        perspective: 1000px;
-        margin-bottom: 14px;
-    }
-
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: left;
-        transition: transform 0.8s;
-        transform-style: preserve-3d;
-    }
-
-    .flip-card:hover .flip-card-inner,
-    .flip-card:focus .flip-card-inner {
-        transform: rotateY(180deg);
-    }
-
-    .flip-card-front,
-    .flip-card-back {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-    }
-
-    .flip-card-back {
-        background: #1E2827;
-        border-radius: 8px;
-
-        transform: rotateY(180deg);
-
-        padding-top: 40px;
-        padding-right: 60px;
-        padding-left: 40px;
-        padding-bottom: 40px;
-    }
-
-    .flip-card-front {
-        padding: 43px 7.5px;
-    }
-
-    /*---flipper-end---*/
-
-
-    .over-h {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.29;
-        letter-spacing: -0.02em;
-        color: #fff;
-
-        margin-bottom: 10px;
-    }
-
-    .over-text {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.29;
-        letter-spacing: -0.01em;
-        color: rgba(255, 255, 255, 0.5);
-    }
-
-    .over-text.descr {
-        margin-bottom: 16px;
-    }
+  .over-text.descr {
+    margin-bottom: 16px;
+  }
 }
 
 @media screen and (min-width: 375px) {
-    .container {
-        width: 375px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  .container {
+    width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
+  section.catalog {
+    width: 375px;
+  }
 
+  .flip-card {
+    width: 335px;
+  }
 
-    section.catalog {
-
-        width: 375px;
-    }
-
-    .flip-card {
-        width: 335px;
-    }
-
-    .flip-card-front {
-        padding: 43px 30px;
-    }
+  .flip-card-front {
+    padding: 43px 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    .container {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  section.catalog {
+    width: 768px;
+  }
 
-    section.catalog {
+  .catalog-whatches {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 32px;
+    margin-bottom: 40px;
+  }
 
-        width: 768px;
+  .buy-button {
+    height: 50px;
+    width: 122px;
 
-    }
-
-    .catalog-whatches {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        column-gap: 32px;
-        margin-bottom: 40px;
-    }
-
-
-    .buy-button {
-        height: 50px;
-        width: 122px;
-
-        text-align: center;
-    }
-
+    text-align: center;
+  }
 }
-
 
 @media screen and (min-width: 1280px) {
+  .container {
+    width: 1212px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
 
+  section.catalog {
+    width: 1212px;
+  }
 
-    .container {
-        width: 1212px;
-        padding-left: 18px;
-        padding-right: 18px;
-    }
+  .catalog-whatches {
+    row-gap: 64px;
+    column-gap: 24px;
+    margin-bottom: 80px;
+  }
 
-    section.catalog {
-        width: 1212px;
-    
-    }
+  .whatches:nth-last-child(-n + 4) {
+    display: block;
+  }
 
-    .catalog-whatches {
+  li.whatches {
+    margin-bottom: 0;
+  }
 
-        row-gap: 64px;
-        column-gap: 24px;
-        margin-bottom: 80px;
-    }
+  .flip-card-front {
+    padding: 25px 0;
+  }
 
-    .whatches:nth-last-child(-n+4) {
-        display: block;
-    }
+  .overlay img {
+    width: 276px;
+    margin: 0;
+  }
 
-    li.whatches {
-        margin-bottom: 0;
-    }
+  .overlay {
+    position: relative;
+    overflow: hidden;
+    width: 276px;
+    height: 376px;
 
-    .flip-card-front {
-        padding: 25px 0;
-    }
+    margin-bottom: 14px;
+  }
 
-    .overlay img {
+  .whatch-name {
+    width: 276px;
+  }
 
-        width: 276px;
-        margin: 0;
-
-    }
-
-    .overlay {
-        position: relative;
-        overflow: hidden;
-        width: 276px;
-        height: 376px;
-
-        margin-bottom: 14px;
-    }
-
-    .whatch-name {
-        width: 276px;
-
-
-    }
-
-    .flip-card {
-        width: 276px;
-    }
-
+  .flip-card {
+    width: 276px;
+  }
 }
-

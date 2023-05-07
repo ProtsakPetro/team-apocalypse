@@ -41,7 +41,9 @@
   --primary-color-footer: #141414;
   --accent-color-footer: #c6cdd1;
 
-  font-family: Epilogue, Inter, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Epilogue, Epilogue Light, 'Franklin Gothic Medium',
+    'Arial Narrow', Arial, sans-serif Inter, Avenir, Helvetica, Arial,
+    sans-serif;
   font-size: 16px;
 
   line-height: 24px;
@@ -49,20 +51,12 @@
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
 
-  /* font-synthesis: none;
+  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- */
 
-  -webkit-text-size-adjust: 100%;
-}
-
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  -webkit-text-size-adjust: 100%; */
 }
 
 @font-face {
@@ -95,7 +89,27 @@
   font-display: swap;
 }
 
-/* @media screen and (min-width: 375px) {
+/* title.title {
+  font-family: 'Epilogue';
+} */
+
+body {
+  font-family: 'Epilogue';
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 375px) {
   .container {
     width: 375px;
   }
@@ -106,6 +120,10 @@
     padding-left: 32px;
     padding-right: 32px;
   }
+  .section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -114,4 +132,9 @@
     padding-left: 18px;
     padding-right: 18px;
   }
-} */
+
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}

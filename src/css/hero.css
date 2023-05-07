@@ -19,9 +19,9 @@
 }
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1440px;
-    padding-left: 132px;
-    padding-right: 132px;
+    width: 1212px;
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
 
@@ -29,8 +29,8 @@
 /*-----------------Mobile------------------*/
 .hero {
   background-color: var(--primary-color);
-  padding-bottom: 40px;
-  padding-top: 76px;
+  /* padding-bottom: 40px;*/
+  padding-top: 69px;
 }
 .hero-title {
   font-weight: 600;
@@ -59,15 +59,24 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 250ms var(--transition-time-cubic);
+}
+
+.button-next,
+.button-prev {
+  border: 1px solid var(--invent-color);
+}
+/*---------------------Hover for buttons-navigation---------------*/
+.button-navigation:hover,
+.button-navigation:focus {
+  opacity: 1;
 }
 
 .button-navigation-mobile {
   width: 32px;
   height: 32px;
-}
-.button-next,
-.button-prev {
-  border: 1px solid var(--invent-color);
 }
 
 .buttons-wrap {
@@ -121,9 +130,6 @@
   margin-bottom: 40px;
   width: 248px;
 }
-.swiper-icon {
-  stroke: rgba(0, 0, 0 0.5);
-}
 
 @media screen and (max-width: 767px) {
   .swiper-buttons-tablet {
@@ -133,18 +139,13 @@
     margin-bottom: 40px;
   }
 }
-@media screen and (max-width: 375px) {
-  html,
-  body {
-    overflow-x: hidden;
-  }
-}
+
 /*---------------------Tablet-------------------------*/
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 98px;
-    padding-bottom: 64px;
+    padding-top: 80px;
+    /* padding-bottom: 64px;*/
   }
   .swiper-buttons-tablet {
     display: flex;
@@ -194,7 +195,7 @@
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    padding-bottom: 80px;
+    /* padding-bottom: 80px;*/
   }
   .hero-container {
     position: relative;
@@ -215,7 +216,8 @@
   .hero-text-wrap {
     position: absolute;
     top: 0;
-    right: 132px;
+    right: 18px;
+    padding-top: 0;
   }
   .buttons-wrap {
     margin-bottom: 0;
