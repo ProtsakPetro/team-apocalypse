@@ -39,7 +39,7 @@
         padding-top: 0;
 
 
-        background: #F5F5F5;
+        background: #fdfdfd;
     }
 
     .section-name {
@@ -251,9 +251,6 @@
 
         width: 768px;
 
-
-
-        background: #F5F5F5;
     }
 
     .catalog-whatches {
@@ -286,7 +283,7 @@
 
     section.catalog {
         width: 1212px;
-        background: #F5F5F5;
+    
     }
 
     .catalog-whatches {
@@ -336,152 +333,3 @@
 
 }
 
-.overlay-whatches {
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-    background: #1E2827;
-    border-radius: 8px;
-
-    transform: translateY(100%);
-    transition-property: transform, opacity;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    padding-top: 40px;
-    padding-right: 60px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-}
-
-.link-whatches:hover .overlay-whatches {
-    opacity: 1;
-
-    transform: translateY(0%);
-}
-
-.overlay {
-    position: relative;
-    overflow: hidden;
-    width: 335px;
-    height: 360px;
-
-    margin-bottom: 14px;
-}
-
-.over-h {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: #fff;
-
-    margin-bottom: 10px;
-}
-
-.over-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.01em;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.over-text.descr {
-    margin-bottom: 16px;
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
-    section.catalog {
-
-        width: 768px;
-
-
-
-        background: #F5F5F5;
-    }
-
-    .catalog-whatches {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        column-gap: 32px;
-        margin-bottom: 40px;
-    }
-
-
-    .buy-button {
-        height: 50px;
-        width: 122px;
-
-        text-align: center;
-    }
-
-}
-
-@media screen and (min-width: 1280px) {
-    .container {
-        width: 1212px;
-        padding-left: 18px;
-        padding-right: 18px;
-        display: block;
-    }
-
-    section.catalog {
-        width: 1212px;
-        background: #F5F5F5;
-    }
-
-    .catalog-whatches {
-
-        row-gap: 64px;
-        column-gap: 24px;
-        margin-bottom: 80px;
-    }
-
-    .whatches:nth-last-child(-n+4) {
-        display: block;
-    }
-
-    li.whatches {
-        margin-bottom: 0;
-    }
-
-    .flip-card-front {
-        padding: 25px 0;
-    }
-
-    .overlay img {
-
-        width: 276px;
-        margin: 0;
-
-    }
-
-    .overlay {
-        position: relative;
-        overflow: hidden;
-        width: 276px;
-        height: 376px;
-
-        margin-bottom: 14px;
-    }
-
-    .whatch-name {
-        width: 276px;
-
-
-    }
-
-    .flip-card {
-        width: 276px;
-    }
-
-}
