@@ -50,6 +50,7 @@
 .page-header {
 /*position: relative;*/
 padding-top: 34px;
+padding-bottom: 34px;
   background-color: var(--primary-color);
 }
 
