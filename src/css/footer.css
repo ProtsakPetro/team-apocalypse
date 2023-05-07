@@ -26,6 +26,7 @@
     display: block;
     margin-bottom: 20px;
     color: var(--white-color-footer);
+    text-decoration: none;
 }
 
 .footer-logo {
@@ -51,6 +52,7 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--white-color-footer);
+    text-decoration: none;
 }
 
 .link-text {
