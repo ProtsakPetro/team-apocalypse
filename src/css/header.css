@@ -27,7 +27,6 @@
     padding-left: 18px;
     padding-right: 18px;
   }
-
 }
 
 @media screen and (max-width: 374px) {
@@ -49,7 +48,6 @@
   /*position: relative;*/
   padding-top: 34px;
   padding-bottom: 34px;
-
   background-color: var(--primary-color);
 }
 
@@ -128,17 +126,14 @@ display: flex;
   border-radius: 8px;
   border: none;
   padding: 18px 35px 18px 36px;
-  transition: background-color var(--transition-time-cubic), color 250ms var(--transition-time-cubic);
+  transition: background-color var(--transition-time-cubic),
+    color 250ms var(--transition-time-cubic);
 }
 
 /*.contact-phone-number:hover,
 .contact-phone-number:focus {
   color: var(--accent-color);
 }*/
-
-
-
-
 
 @media screen and (max-width: 767px) {
   .menu {
@@ -148,7 +143,6 @@ display: flex;
   .contact-phone-number {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 374px) {
@@ -157,12 +151,10 @@ display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
 }
 
 /*---------------------------планшет-----------------*/
 @media screen and (min-width: 768px) {
-
   .mobile-menu-open-icon {
     display: none;
   }
@@ -191,12 +183,10 @@ display: flex;
 
 /*---------------------------комп-----------------*/
 @media screen and (min-width: 1280px) {
-
   .container {
     width: 1212px;
   }
 }
-
 
 /*---------------------------/комп-----------------*/
 /*-------------/хедер----------------------------------*/
