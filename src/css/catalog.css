@@ -1,5 +1,6 @@
-/*@media screen and (max-width: 320px) {
-.list {
+@media screen and (min-width: 320px) {
+
+    .list {
         list-style: none;
     }
 
@@ -23,15 +24,20 @@
         margin-bottom: 0
     }
 
-    .container {}
+
+    .container {
+        width: 320px;
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     section.catalog {
         margin-left: auto;
         margin-right: auto;
-        width: 375px;
-    
+        width: 320px;
+
         padding-top: 0;
-        padding-bottom: 80px;
+
 
         background: #F5F5F5;
     }
@@ -130,15 +136,15 @@
 
     }
 
-    /*   .whatches:nth-last-child(-n+4) {
+    .whatches:nth-last-child(-n+4) {
         display: none;
-    }*/
+    }
 
-/*---flipper---*/
+    /*---flipper---*/
 
-/*  .flip-card {
+    .flip-card {
         background-color: transparent;
-        width: 335px;
+        width: 320px;
         height: 360px;
         perspective: 1000px;
         margin-bottom: 14px;
@@ -181,45 +187,11 @@
     }
 
     .flip-card-front {
-        padding: 43px 30px;
+        padding: 43px 7.5px;
     }
 
     /*---flipper-end---*/
-/*---overlay---*/
-/*----какой кубик?---*/
-/* .overlay-whatches {
-        position: absolute;
 
-        width: 100%;
-        height: 100%;
-        background: #1E2827;
-        border-radius: 8px;
-
-        transform: translateY(100%);
-        transition-property: transform, opacity;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-        padding-top: 40px;
-        padding-right: 60px;
-        padding-left: 40px;
-        padding-bottom: 40px;
-    }
-
-    .link-whatches:hover .overlay-whatches {
-        opacity: 1;
-
-        transform: translateY(0%);
-    }
-
-    .overlay {
-        position: relative;
-        overflow: hidden;
-        width: 335px;
-        height: 360px;
-
-        margin-bottom: 14px;
-    }
 
     .over-h {
         font-weight: 400;
@@ -242,194 +214,134 @@
     .over-text.descr {
         margin-bottom: 16px;
     }
-}*/
+}
+
 @media screen and (min-width: 375px) {
-  .list {
-    list-style: none;
-  }
+    .container {
+        width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-  .link {
-    text-decoration: none;
-  }
 
-  ul {
-    margin: 0;
-  }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  p {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+    section.catalog {
 
-  .container {
-  }
+        width: 375px;
+    }
 
-  section.catalog {
-    margin-left: auto;
-    margin-right: auto;
-    width: 375px;
+    .flip-card {
+        width: 335px;
+    }
 
-    padding-top: 0;
-    padding-bottom: 80px;
-    padding-top: 80px;
+    .flip-card-front {
+        padding: 43px 30px;
+    }
+}
 
-    background: #f5f5f5;
-  }
+@media screen and (min-width: 768px) {
 
-  .section-name {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    color: #1e2827;
+    .container {
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
 
-    margin-bottom: 40px;
-  }
+    section.catalog {
 
-  .whatch-name {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: #141414;
+        width: 768px;
 
-    margin-bottom: 4px;
-  }
 
-  .watch-price {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.167;
-    letter-spacing: -0.02em;
-    color: rgba(20, 20, 20, 0.5);
-  }
 
-  .overlay img {
-    display: block;
-    margin: auto;
-    margin-bottom: 15px;
-  }
+        background: #F5F5F5;
+    }
 
-  li.whatches {
-    margin-bottom: 40px;
-  }
+    .catalog-whatches {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        column-gap: 32px;
+        margin-bottom: 40px;
+    }
 
-  .whatch-name {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: #141414;
 
-    margin-bottom: 4px;
-  }
+    .buy-button {
+        height: 50px;
+        width: 122px;
 
-  .watch-price {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.167;
-    letter-spacing: -0.02em;
+        text-align: center;
+    }
 
-    color: rgba(20, 20, 20, 0.5);
-  }
+}
 
-  .buy-button {
-    color: #fff;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
 
-    background-color: #1e2827;
-    cursor: pointer;
+@media screen and (min-width: 1280px) {
 
-    display: block;
-    margin-left: auto;
-    height: 42px;
-    width: 108px;
-    border-radius: 8px;
-    text-align: center;
-    border: 1px solid #1e2827;
-  }
 
-  .buy-button:hover,
-  .buy-button:focus {
-    border: 1px solid #fff;
-  }
+    .container {
+        width: 1212px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
 
-  .whatch-name {
-    width: 276px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+    section.catalog {
+        width: 1212px;
+        background: #F5F5F5;
+    }
 
-  .whatches:nth-last-child(-n + 4) {
-    display: none;
-  }
+    .catalog-whatches {
 
-  /*---flipper---*/
+        row-gap: 64px;
+        column-gap: 24px;
+        margin-bottom: 80px;
+    }
 
-  .flip-card {
-    background-color: transparent;
-    width: 335px;
-    height: 360px;
-    perspective: 1000px;
-    margin-bottom: 14px;
-  }
+    .whatches:nth-last-child(-n+4) {
+        display: block;
+    }
 
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: left;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
+    li.whatches {
+        margin-bottom: 0;
+    }
 
-  .flip-card:hover .flip-card-inner,
-  .flip-card:focus .flip-card-inner {
-    transform: rotateY(180deg);
-  }
+    .flip-card-front {
+        padding: 25px 0;
+    }
 
-  .flip-card-front,
-  .flip-card-back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
+    .overlay img {
 
-  .flip-card-back {
-    background: #1e2827;
-    border-radius: 8px;
+        width: 276px;
+        margin: 0;
 
-    transform: rotateY(180deg);
+    }
 
-    padding-top: 40px;
-    padding-right: 60px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-  }
+    .overlay {
+        position: relative;
+        overflow: hidden;
+        width: 276px;
+        height: 376px;
 
-  .flip-card-front {
-    padding: 43px 30px;
-  }
+        margin-bottom: 14px;
+    }
 
-  /*---flipper-end---*/
-  /*---overlay---*/
-  /*----какой кубик?---*/
-  .overlay-whatches {
+    .whatch-name {
+        width: 276px;
+
+
+    }
+
+    .flip-card {
+        width: 276px;
+    }
+
+}
+
+.overlay-whatches {
     position: absolute;
 
     width: 100%;
     height: 100%;
-    background: #1e2827;
+    background: #1E2827;
     border-radius: 8px;
 
     transform: translateY(100%);
@@ -441,24 +353,24 @@
     padding-right: 60px;
     padding-left: 40px;
     padding-bottom: 40px;
-  }
+}
 
-  .link-whatches:hover .overlay-whatches {
+.link-whatches:hover .overlay-whatches {
     opacity: 1;
 
     transform: translateY(0%);
-  }
+}
 
-  .overlay {
+.overlay {
     position: relative;
     overflow: hidden;
     width: 335px;
     height: 360px;
 
     margin-bottom: 14px;
-  }
+}
 
-  .over-h {
+.over-h {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
@@ -466,91 +378,110 @@
     color: #fff;
 
     margin-bottom: 10px;
-  }
+}
 
-  .over-text {
+.over-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.01em;
     color: rgba(255, 255, 255, 0.5);
-  }
-
-  .over-text.descr {
-    margin-bottom: 16px;
-  }
 }
+
+.over-text.descr {
+    margin-bottom: 16px;
+}
+
 @media screen and (min-width: 768px) {
-  section.catalog {
-    width: 768px;
+    .container {
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
 
-    padding-bottom: 128px;
-    padding-top: 128px;
-    background: #f5f5f5;
-  }
+    section.catalog {
 
-  .catalog-whatches {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 40px;
-    column-gap: 32px;
-    margin-bottom: 40px;
-  }
+        width: 768px;
 
-  .buy-button {
-    height: 50px;
-    width: 122px;
 
-    text-align: center;
-  }
+
+        background: #F5F5F5;
+    }
+
+    .catalog-whatches {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        column-gap: 32px;
+        margin-bottom: 40px;
+    }
+
+
+    .buy-button {
+        height: 50px;
+        width: 122px;
+
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
-  section.catalog {
-    width: 1280px;
+    .container {
+        width: 1212px;
+        padding-left: 18px;
+        padding-right: 18px;
+        display: block;
+    }
 
-    padding-bottom: 80px;
-    padding-top: 80px;
-    background: #f5f5f5;
-  }
+    section.catalog {
+        width: 1212px;
+        background: #F5F5F5;
+    }
 
-  .catalog-whatches {
-    row-gap: 64px;
-    column-gap: 24px;
-    margin-bottom: 80px;
-  }
+    .catalog-whatches {
 
-  .whatches:nth-last-child(-n + 4) {
-    display: block;
-  }
+        row-gap: 64px;
+        column-gap: 24px;
+        margin-bottom: 80px;
+    }
 
-  li.whatches {
-    margin-bottom: 0;
-  }
+    .whatches:nth-last-child(-n+4) {
+        display: block;
+    }
 
-  .flip-card-front {
-    padding: 25px 0;
-  }
+    li.whatches {
+        margin-bottom: 0;
+    }
 
-  .overlay img {
-    width: 276px;
-    margin: 0;
-  }
+    .flip-card-front {
+        padding: 25px 0;
+    }
 
-  .overlay {
-    position: relative;
-    overflow: hidden;
-    width: 276px;
-    height: 376px;
+    .overlay img {
 
-    margin-bottom: 14px;
-  }
+        width: 276px;
+        margin: 0;
 
-  .whatch-name {
-    width: 276px;
-  }
+    }
 
-  .flip-card {
-    width: 276px;
-  }
+    .overlay {
+        position: relative;
+        overflow: hidden;
+        width: 276px;
+        height: 376px;
+
+        margin-bottom: 14px;
+    }
+
+    .whatch-name {
+        width: 276px;
+
+
+    }
+
+    .flip-card {
+        width: 276px;
+    }
+
 }
