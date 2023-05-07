@@ -3,7 +3,7 @@
     --white-color-footer: #fff;
     --primary-color-footer: #141414;
     --accent-color-footer: #c6cdd1;
-    --footer-hover: darkolivegreen;
+    --footer-hover: #556b2f;
 }
 
 .footer-container {
@@ -25,6 +25,7 @@
     font-style: normal;
     display: block;
     margin-bottom: 20px;
+    color: var(--white-color-footer);
 }
 
 .footer-logo {
@@ -49,6 +50,7 @@
     font-style: normal;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    color: var(--white-color-footer);
 }
 
 .link-text {
