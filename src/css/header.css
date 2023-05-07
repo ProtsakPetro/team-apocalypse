@@ -1,4 +1,39 @@
 
+:root {
+  --slider-bg-color: #1e2827;
+  --invent-color: #fff;
+  --primary-color: #141414;
+}
+
+/*скидання початкових відступів*/
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  display: block;
+}
+
 
 .container {
   margin-left: auto;
@@ -24,11 +59,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+
 .container {
     width: 1212px;
     padding-left: 18px;
     padding-right: 18px;
-  }
+
   
 }
 
@@ -45,13 +81,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .page-header {
+
 /*position: relative;*/
 padding-top: 34px;
 padding-bottom: 34px;
   background-color: var(--primary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 34px;
 }
 
 .page-nav {
@@ -62,7 +104,7 @@ padding-bottom: 34px;
 .mod {
   margin-top: 207px;
 }
-.logo-icon{
+.logo-icon {
   margin-right: 4px;
 }
 .logo-style {
@@ -124,16 +166,13 @@ padding-bottom: 34px;
   border: none;
   padding: 18px 35px 18px 36px;
   transition: background-color var(--transition-time-cubic), color 250ms var(--transition-time-cubic);
+
 }
 
 /*.contact-phone-number:hover,
 .contact-phone-number:focus {
   color: var(--accent-color);
 }*/
-
-
-
-
 
 @media screen and (max-width: 767px) {
   .menu {
@@ -143,7 +182,6 @@ padding-bottom: 34px;
   .contact-phone-number {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 374px) {
@@ -158,7 +196,9 @@ padding-bottom: 34px;
 /*---------------------------планшет-----------------*/
 @media screen and (min-width: 768px) {
 
+
   .mobile-menu-open-icon {
+
     display: none;
   }
 
@@ -170,12 +210,12 @@ padding-bottom: 34px;
   .mobile-menu {
     display: none;
   }
-  .logo-icon{
+  .logo-icon {
     width: 19px;
     height: 19px;
   }
-  .logo-style{
-  font-size: 15px;
+  .logo-style {
+    font-size: 15px;
     line-height: 1;
   }
 }
@@ -185,9 +225,11 @@ padding-bottom: 34px;
 /*---------------------------комп-----------------*/
 @media screen and (min-width: 1280px) {
 
+
 .container{
 width: 1212px;
 }
+
 }
 
 
