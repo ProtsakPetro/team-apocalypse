@@ -427,8 +427,8 @@ img {
    }
    .sale-section {
         width: 1280px;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
    }
    .sale-gallery-block {
         gap: 0;
