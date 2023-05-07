@@ -9,10 +9,11 @@ img{
     padding-bottom: 80px;
 }
 .container {
-    margin-right: 20px;
-    margin-left: 20px;
+   padding-right: 20px;
+    padding-left: 20px;
 }
 .new-watches-container {
+    background: #FFFFFF;
     width: 335px;
     height: 722px;
 }
@@ -46,31 +47,40 @@ margin-bottom: 8px;
      gap: 20px;
 }
 .nw-picture-item {
-    width: 100%;
+    width: 335px;
+    height: 260px ;
     
-  
 }
-
+.nw-picture-img{
+    width: 335px;
+    height: 260px ;
+}
 @media screen and (min-width: 375px) {
     .container{
         width: 335px;
+       
     }
 }
 @media screen and (min-width: 768px) {
     .container{
-        width: 704px;
-        margin-right: auto;
-        margin-left: auto;
+        width: 768px;
+      padding-right: 32px;
+      padding-left: 32px;
        
     }
-    .new-watches>.container{
-        padding-right: 32px;
-        padding-left: 32px;
-    }
+   
+    .new-watches-container {
+        width: 704px;
+        height: 410px;
+        
+       
+}
     .new-watches {
         padding-top: 128px;
         padding-bottom: 128px;
-    }
+       
+        
+    } 
    
     .nw-under-tittle{
         width: 448px;
@@ -84,19 +94,38 @@ letter-spacing: -0.02em;
 color: #1E2827;
     }
     .nw-picture-list {
-        display: flex;      
+        display: flex; 
+        align-items: center;
+        justify-content: center;     
         gap: 20px;
+       
     }
     .nw-picture-item {
-   width: calc((100% - 20px) / 2);
-  
+        width: calc((100% - 20px) / 2);
+   
+    }
+    .nw-picture-img{
+        width: 100%;
+        height: 260px; 
     }
 }
 @media screen and (min-width: 1280px) {
     .container{
-        width: 1280px;
-        padding: 132px 80px;
+        width: 1212px;
+        padding-left: 18px;
+        padding-right: 18px;
+       
     }
+    .new-watches {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .new-watches-container {
+        width: 100%;
+        height: 772px;
+        padding: 80px 132px;
+    }
+
     .nw-under-tittle{
         margin-bottom: 80px;
     }
@@ -108,4 +137,9 @@ color: #1E2827;
    width: calc((100% - 24px) / 2);
   
     }
+    .nw-picture-img{
+        width: 576px;
+        height: 422px ;
+    }
 }
+
