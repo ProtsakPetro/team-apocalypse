@@ -31,10 +31,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 320px;
-
     padding-top: 0;
-
-    background: #fdfdfd;
+    background: #fff;
   }
 
   .section-name {
@@ -43,7 +41,6 @@
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: #1e2827;
-
     margin-bottom: 40px;
   }
 
@@ -259,7 +256,6 @@
 
   .catalog {
     width: 1212px;
-    background: #f5f5f5;
   }
 
   .catalog-whatches {
