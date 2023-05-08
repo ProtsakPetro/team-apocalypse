@@ -155,6 +155,13 @@ svg #icon-mobile-x {
   margin-top: 12px;
   padding-right: 10px;
 }
+.privacy-link {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  text-decoration-line: underline;
+  color: rgba(20, 20, 20, 0.4);
+}
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .modal {
     overflow: auto;
@@ -228,7 +235,7 @@ svg #icon-mobile-x {
     flex-direction: row;
     gap: 40px;
   }
-  .modal-right{
+  .modal-right {
     width: 508px;
   }
   .modal-form-message {
