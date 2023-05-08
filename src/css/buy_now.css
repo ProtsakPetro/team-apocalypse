@@ -97,6 +97,12 @@ svg #icon-mobile-x {
   padding-left: 16px;
   transition: var(--transitio-border-color);
 }
+.modal-form-input:not(:placeholder-shown):valid{
+  border-color: green;
+}  
+.modal-form-input:not(:placeholder-shown):invalid    {
+  border-color: red;
+}
 .modal-form-input::placeholder {
   font-size: 14px;
   line-height: 1.28;
