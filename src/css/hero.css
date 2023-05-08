@@ -138,6 +138,15 @@
     margin-bottom: 40px;
   }
 }
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 335px;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
 
 /*---------------------Tablet-------------------------*/
 
