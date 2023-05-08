@@ -85,6 +85,10 @@
     margin-bottom: 14px;
 }
 
+.copy-icon {
+    color: var(--accent-color-footer);
+}
+
 .link-text:not(:last-child) {
     margin-right: 14px;
 }
