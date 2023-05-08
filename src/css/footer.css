@@ -9,8 +9,6 @@
 .footer-container {
     padding: 40px 20px 20px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .tablet-footer-flex {
@@ -115,7 +113,7 @@
     display: flex;
 }
 
-.anchor-list {
+.anchor-item:not(:last-child) {
     margin-bottom: 14px;
 }
 
