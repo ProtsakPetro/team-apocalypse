@@ -18,7 +18,7 @@
     justify-content: space-between;
 }
 
-.footer {
+.end-page-section {
     background-color: var(--green-color-footer);
     color: var(--white-color-footer);
     padding-top: 40px;
@@ -127,7 +127,7 @@
 
     }
 
-    .footer {
+    .end-page-section {
         padding-top: 80px;
     }
 
