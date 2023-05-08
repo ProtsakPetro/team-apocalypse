@@ -127,7 +127,6 @@ svg #icon-mobile-x {
   padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  color: rgba(46, 47, 66, 0.4);
   margin-top: 4px;
   transition: border-color var(--transition-time-cubic);
 }
