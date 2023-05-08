@@ -44,7 +44,7 @@
     />
     
     <script type="module" crossorigin src="/team-apocalypse/assets/index-f6803117.js"></script>
-    <link rel="stylesheet" href="/team-apocalypse/assets/index-73a0fc95.css">
+    <link rel="stylesheet" href="/team-apocalypse/assets/index-08de3549.css">
   </head>
   <body>
     <header>
@@ -743,7 +743,7 @@
       </svg>
     </button>
     <div class="modal-left">
-      <img src="/team-apocalypse/assets/w1-ba9825d2.png" alt="Clock" width="276" height="325" />
+      <img srcset="/team-apocalypse/assets/w1-ba9825d2.png 1x, /team-apocalypse/assets/w1@x2-1a6de268.png 2x" src="/team-apocalypse/assets/w1-ba9825d2.png" alt="Clock" width="276" height="325" />
       <p class="modal-left-text">Tube Watch S42 Date Steel With Black...</p>
       <p class="modal-left-price">€395</p>
     </div>
@@ -758,7 +758,8 @@
               class="modal-form-input"
               placeholder="Enter your full name"
               required
-              pattern="^[a-zA-Zа-яА-Я]+$"
+              minlength="2"
+              pattern="[a-zA-Zа-яА-ЯіІїЇї]+"
             />
           </span>
         </label>
@@ -771,6 +772,7 @@
               name="user_email"
               class="modal-form-input"
               required
+              pattern="^^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             />
           </span>
         </label>
