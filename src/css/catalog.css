@@ -27,14 +27,12 @@
     padding-right: 0;
   }
 
-  section.catalog {
+  .catalog {
     margin-left: auto;
     margin-right: auto;
     width: 320px;
-
     padding-top: 0;
-
-    background: #fdfdfd;
+    background: #fff;
   }
 
   .section-name {
@@ -43,7 +41,6 @@
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: #1e2827;
-
     margin-bottom: 40px;
   }
 
@@ -210,7 +207,7 @@
     padding-right: 20px;
   }
 
-  section.catalog {
+  .catalog {
     width: 375px;
   }
 
@@ -230,7 +227,7 @@
     padding-right: 32px;
   }
 
-  section.catalog {
+  .catalog {
     width: 768px;
   }
 
@@ -257,7 +254,7 @@
     padding-right: 18px;
   }
 
-  section.catalog {
+  .catalog {
     width: 1212px;
   }
 

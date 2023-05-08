@@ -6,7 +6,7 @@
       </svg>
     </button>
     <div class="modal-left">
-      <img src="../img/catalog.png/w1.png" alt="Clock" width="276" height="325" />
+      <img srcset="./img/catalog.png/w1.png 1x, ./img/catalog.png/w1@x2.png 2x" src="./img/catalog.png/w1.png" alt="Clock" width="276" height="325" />
       <p class="modal-left-text">Tube Watch S42 Date Steel With Black...</p>
       <p class="modal-left-price">€395</p>
     </div>
@@ -21,7 +21,8 @@
               class="modal-form-input"
               placeholder="Enter your full name"
               required
-              pattern="^[a-zA-Zа-яА-Я]+$"
+              minlength="2"
+              pattern="[a-zA-Zа-яА-ЯіІїЇї]+"
             />
           </span>
         </label>
@@ -34,6 +35,7 @@
               name="user_email"
               class="modal-form-input"
               required
+              pattern="^^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             />
           </span>
         </label>
@@ -61,7 +63,7 @@
         </label>
         <button type="submit" class="modal-form-btn">submit</button>
         <p class="privacy-text">
-          By clicking on “Submit” button, you agree to our Privacy Policy, and allow Promodo to use this information for marketing purposes.
+          By clicking on “Submit” button, you agree to our <a class="privacy-link" href="">Privacy Policy</a>, and allow Promodo to use this information for marketing purposes.
         </p>
       </form>
     </div>
