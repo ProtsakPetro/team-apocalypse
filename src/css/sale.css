@@ -242,6 +242,48 @@ img {
   .sale-section {
     max-width: 375px;
   }
+  .sale-product-description-text::after {
+    position: absolute;
+    content: '';
+    display: block;
+    margin-top: 35px;
+    width: 100%; 
+    height: 1px;
+    border-radius: 2px;
+    background-color: #141414;
+  }
+  .sale-product-price::after {
+    position: absolute;
+    content: '';
+    display: block;
+    margin-top: 94px;
+    width: 100%; 
+    height: 1px;
+    border-radius: 2px;
+    background-color: #141414;
+  }
+  .sale-product::after {
+    position: absolute;
+    content: '';
+    display: none;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: auto;
+    width: 16px;
+    height: 1px;
+    border: 1px solid #141414;
+  }
+  .sale-product-description::after {
+    position: absolute;
+    content: '';
+    display: none;
+    width: 16px;
+    margin-left: 0;
+    justify-content: right;
+    margin-top: 50px;
+    height: 1px;
+    border: 1px solid #141414;
+  }
 }
 @media screen and (min-width: 768px) {
   .sale-container {
