@@ -40,74 +40,64 @@
   --white-color-footer: #fff;
   --primary-color-footer: #141414;
   --accent-color-footer: #c6cdd1;
-
-  /* font-family: Epilogue, Epilogue Light, 'Franklin Gothic Medium',
-    'Arial Narrow', Arial, sans-serif Inter, Avenir, Helvetica, Arial,
-    sans-serif;
-  font-size: 16px;
-
-  line-height: 24px;
-  font-weight: 400;
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  -webkit-text-size-adjust: 100%; */
 }
 
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Epilogue';
-  src: local('Epilogue'), url(/fonts/Epilogue-Light.woff2) format('woff2'),
-    url(/fonts/Epilogue-Light.woff) format('woff'),
-    url(/fonts/Epilogue-Light.ttf) format('truetype');
+  font-style: normal;
   font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+  src: url('../fonts/epilogue-v17-latin-300.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/epilogue-v17-latin-300.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/epilogue-v17-latin-300.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/epilogue-v17-latin-300.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/epilogue-v17-latin-300.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/epilogue-v17-latin-300.svg#Epilogue') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Epilogue';
-  src: local('Epilogue'), url(/fonts/Epilogue-Light.woff2) format('woff2'),
-    url(/fonts/Epilogue-Light.woff) format('woff'),
-    url(/fonts/Epilogue-Light.ttf) format('truetype');
+  font-style: normal;
   font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+  src: url('../fonts/epilogue-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/epilogue-v17-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/epilogue-v17-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/epilogue-v17-latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/epilogue-v17-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/epilogue-v17-latin-regular.svg#Epilogue') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Epilogue';
-  src: local('Epilogue'), url(/fonts/Epilogue-Light.woff2) format('woff2'),
-    url(/fonts/Epilogue-Light.woff) format('woff'),
-    url(/fonts/Epilogue-Light.ttf) format('truetype');
-  font-weight: 600;
   font-style: normal;
-  font-display: swap;
+  font-weight: 600;
+  src: url('../fonts/epilogue-v17-latin-600.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/epilogue-v17-latin-600.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/epilogue-v17-latin-600.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/epilogue-v17-latin-600.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/epilogue-v17-latin-600.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/epilogue-v17-latin-600.svg#Epilogue') format('svg'); /* Legacy iOS */
 }
-
-/* title.title {
-  font-family: 'Epilogue';
-} */
 
 body {
-  font-family: 'Epilogue';
+  font-family: 'Epilogue', sans-serif;
   /* overflow-x: hidden; */
 }
-
-/* .container{
-    max-width:335px;
-  }
-html,
-  body {
-    overflow-x: hidden;
-  }html,
-  body {
-    overflow-x: hidden;
-  } */
 
 .container {
   padding-left: 20px;
