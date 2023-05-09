@@ -95,7 +95,19 @@
 
 body {
   font-family: 'Epilogue';
+  /* overflow-x: hidden; */
 }
+
+/* .container{
+    max-width:335px;
+  }
+html,
+  body {
+    overflow-x: hidden;
+  }html,
+  body {
+    overflow-x: hidden;
+  } */
 
 .container {
   padding-left: 20px;
