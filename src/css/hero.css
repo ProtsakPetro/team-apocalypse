@@ -138,10 +138,13 @@
     margin-bottom: 40px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
+  .container {
+    max-width: 320px;
+  }
   .hero-title {
-    max-width: 335px;
-    font-size: 34px;
+    max-width: 280px;
+    font-size: 32px;
   }
   .hero-text {
     max-width: 248px;
@@ -160,7 +163,7 @@
     max-width: 335px;
   }
   img {
-    max-width: 100%;
+    max-width: 3355px;
     display: block;
   }
   .hero-imd-thumb {
