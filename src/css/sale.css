@@ -12,8 +12,8 @@ ul {
   padding-left: 0;
 }
 img {
-  display: block;
-  max-width: none;
+  /* display: block;
+  max-width: none; */
   min-width: auto;
 }
 .sale-container {
