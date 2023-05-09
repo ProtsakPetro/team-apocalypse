@@ -42,7 +42,7 @@
 
 .container-media {
   display: block;
-  max-width: 335px;
+  width: 335px;
   height: 365px;
   margin-right: auto;
   margin-left: auto;
@@ -91,7 +91,7 @@
     margin-top: 40px;
   }
   .container-media {
-    max-width: 704px;
+    width: 704px;
     height: 465px;
   }
 }
@@ -121,7 +121,7 @@
     max-width: 380px;
   }
   .container-media {
-    max-width: 892px;
+    width: 892px;
     height: 500px;
     margin-left: auto;
     margin-right: 0;
