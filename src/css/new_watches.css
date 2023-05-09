@@ -55,7 +55,7 @@ img {
 }
 @media screen and (min-width: 375px) {
   .container {
-    width: 335px;
+    width: 375px;
   }
   .nw-picture-img {
     max-width: 342px;
