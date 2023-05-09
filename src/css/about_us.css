@@ -42,7 +42,7 @@
 
 .container-media {
   display: block;
-  width: 335px;
+  max-width: 335px;
   height: 365px;
   margin-right: auto;
   margin-left: auto;
