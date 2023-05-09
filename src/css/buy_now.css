@@ -211,6 +211,9 @@ svg #icon-mobile-x {
     gap: 20px;
     overflow: auto;
   }
+  .modal-form {
+    padding: 0 0 40px 0;
+}
   .modal-left {
     width: 276px;
     height: 375px;
@@ -263,6 +266,9 @@ svg #icon-mobile-x {
     gap: 40px;
     border-radius: 8px;
   }
+  .modal-form {
+    padding: 0 0 40px 0;
+}
   .modal-right {
     width: 508px;
   }
