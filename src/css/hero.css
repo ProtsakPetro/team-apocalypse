@@ -33,7 +33,7 @@
 }
 .hero-title {
   font-weight: 600;
-  font-size: 38px;
+  font-size: 34px;
   line-height: 1.05;
 
   letter-spacing: -0.04em;
@@ -128,6 +128,13 @@
   color: var(--invent-color);
   margin-bottom: 40px;
   width: 248px;
+}
+
+@media screen and (min-width: 375px) {
+  .hero-title {
+    width: 335px;
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width: 767px) {
