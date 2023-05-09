@@ -147,7 +147,7 @@ img {
   content: '';
   display: block;
   margin-top: 94px;
-  max-width: 335px;
+  width: 332px; 
   height: 1px;
   border-radius: 2px;
   background-color: #141414;
@@ -168,8 +168,7 @@ img {
   content: '';
   display: block;
   width: 16px;
-  /* тут */
-  margin-left: 260px;
+  margin-left: 316px;
   margin-top: 50px;
   height: 1px;
   border: 1px solid #141414;
@@ -189,7 +188,7 @@ img {
   content: '';
   display: block;
   margin-top: 35px;
-  max-width: 300px;
+  width: 332px; 
   height: 1px;
   border-radius: 2px;
   background-color: #141414;
@@ -210,8 +209,7 @@ img {
   content: '';
   display: block;
   width: 16px;
-  /* тут */
-  margin-left: 260px;
+  margin-left: 316px;
   margin-top: 50px;
   height: 1px;
   border: 1px solid #141414;
@@ -337,12 +335,12 @@ img {
     color: rgba(20, 20, 20, 0.5);
     margin-left: 8px;
   }
-  .sale-product-price::after {
+  .sale-product-price::after { 
     position: absolute;
     content: '';
     display: block;
     margin-top: 94px;
-    width: 572px;
+    width: 572px; 
     height: 1px;
     border-radius: 2px;
     background-color: #141414;
@@ -383,7 +381,7 @@ img {
     content: '';
     display: block;
     margin-top: 35px;
-    width: 572px;
+    width: 572px; 
     height: 1px;
     border-radius: 2px;
     background-color: #141414;
@@ -541,7 +539,7 @@ img {
     content: '';
     display: block;
     margin-top: 94px;
-    width: 369px;
+    width: 338px;
     height: 1px;
     border-radius: 2px;
     background-color: #141414;
@@ -562,7 +560,7 @@ img {
     content: '';
     display: block;
     width: 16px;
-    margin-left: 353px;
+    margin-left: 319px;
     margin-top: 50px;
     height: 1px;
     border: 1px solid #141414;
@@ -582,7 +580,7 @@ img {
     content: '';
     display: block;
     margin-top: 35px;
-    width: 369px;
+    width: 338px;
     height: 1px;
     border-radius: 2px;
     background-color: #141414;
@@ -603,7 +601,7 @@ img {
     content: '';
     display: block;
     width: 16px;
-    margin-left: 353px;
+    margin-left: 323px;
     margin-top: 50px;
     height: 1px;
     border: 1px solid #141414;
