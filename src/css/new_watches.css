@@ -33,7 +33,7 @@ img {
   font-family: 'Epilogue';
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #141414;
@@ -55,22 +55,26 @@ img {
 }
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px;
+    max-width: 375px;
   }
   .nw-picture-img {
     max-width: 342px;
     height: 260px;
   }
+
+  .nw-under-tittle {
+    font-size: 32px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
+    /* padding-right: 32px;
+    padding-left: 32px; */
   }
 
   .new-watches-container {
-    max-width: 704px;
+    max-width: 768px;
     height: 410px;
   }
   /* .new-watches {
