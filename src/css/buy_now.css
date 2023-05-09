@@ -175,7 +175,7 @@ svg #icon-mobile-x {
   text-decoration-line: underline;
   color: rgba(20, 20, 20, 0.4);
 }
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 375px) {
   .modal {
     overflow: auto;
   }
@@ -183,7 +183,7 @@ svg #icon-mobile-x {
     padding-right: 10px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px){
   .modal {
     width: 744px;
     height: 670px;
