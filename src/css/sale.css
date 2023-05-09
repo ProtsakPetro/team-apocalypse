@@ -17,7 +17,7 @@ img {
     min-width: auto;
 }
 .sale-container {
-    width: 375px;
+    max-width: 375px;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -42,8 +42,6 @@ img {
     height: 350px;
     background: #141414;
     border: 1px solid #141414;
-    padding-left: 12px;
-    padding-top: 14px;
 }
 .sale-gallery-block {
     display: flex;
@@ -89,8 +87,8 @@ img {
 }
 .sale-gallery-photo-big {
     box-sizing: border-box;
-    width: 211px;
-    height: 322px;
+    width: 235px;
+    height: 350px;
     background: #141414;
     border: 1px solid #141414;
 }
@@ -99,8 +97,6 @@ img {
     height: 350px;
     background: #141414;
     border: 1px solid #141414;
-    padding-left: 12px;
-    padding-top: 14px;
 }
 .sale-product-header {
     font-family: 'Epilogue';
@@ -238,14 +234,25 @@ img {
         padding-right: 20px;
     }
 }
+@media screen and (max-width: 375px) {
+    .sale-container {
+        width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sale-section {
+        
+    }
+}
 @media screen and (min-width: 768px) {
     .sale-container {
-        max-width: 768px;
+        max-width: 636px;
         padding-left: 98px;
         padding-right: 98px;
     }
     .sale-section {
         width: 768px;
+        
     }
     .sale-header {
         font-family: 'Epilogue';
@@ -420,16 +427,20 @@ img {
     .sale-container {
         width: 1212px;
         display: flex;
-        align-items: center;
         margin-left: 42px;
+        padding-left: 98px;
+        padding-right: 98px;
    }
    .sale-section {
         width: 1280px;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 160px;
+
    }
    .sale-gallery-block {
         gap: 0;
+        margin-bottom: 0;
    }
     .sale-header {
         font-family: 'Epilogue';
@@ -492,7 +503,6 @@ img {
         letter-spacing: -0.02em;
         color: #141414;
         margin-bottom: 8px;
-        margin-left: 40px;
         width: 369px;
     }
     .sale-product-tag {
@@ -504,7 +514,7 @@ img {
         letter-spacing: -0.02em;
         color: rgba(20, 20, 20, 0.5);
         margin-bottom: 22px;
-        margin-left: 40px;
+        
     }
     .sale-product-price {
         font-family: 'Epilogue';
@@ -517,7 +527,7 @@ img {
         display: flex;
         width: 100%;
         align-items: center;
-        margin-left: 40px;
+        
     }
     .sale-product-old-price {
         font-family: 'Epilogue';
@@ -550,14 +560,14 @@ img {
         text-transform: uppercase;
         color: #141414;
         margin-bottom: 17px;
-        margin-left: 40px;
+        
     }
     .sale-product::after {
         position: absolute;
         content: "";
         display: block;
         width: 16px;
-        margin-left: 393px;
+        margin-left: 353px;
         margin-top: 50px;
         height: 1px;
         border: 1px solid #141414;
@@ -571,7 +581,7 @@ img {
         letter-spacing: -0.01em;
         color: rgba(20, 20, 20, 0.5);
         width: 369px;
-        margin-left: 40px;
+        
     }
     .sale-product-description-text::after {
         position: absolute;
@@ -593,14 +603,14 @@ img {
         text-transform: uppercase;
         color: #141414;
         margin-bottom: 17px;
-        margin-left: 40px;
+        
     }
     .sale-product-description::after {
         position: absolute;
         content: "";
         display: block;
         width: 16px;
-        margin-left: 393px;
+        margin-left: 353px;
         margin-top: 50px;
         height: 1px;
         border: 1px solid #141414;
@@ -613,9 +623,12 @@ img {
         line-height: 18px;
         letter-spacing: -0.01em;
         color: rgba(20, 20, 20, 0.5);
-        margin-left: 40px;
+        
     }
     .sale-product-details {
         margin-bottom: 128px;
+    }
+    .sale-description {
+        margin-left: 40px;
     }
 }
