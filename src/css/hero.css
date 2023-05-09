@@ -67,7 +67,7 @@
 .button-prev {
   border: 1px solid var(--invent-color);
 }
-/*---------------------Hover for buttons-navigation---------------*/
+
 .button-navigation:hover,
 .button-navigation:focus {
   opacity: 1;
@@ -138,6 +138,35 @@
     margin-bottom: 40px;
   }
 }
+@media screen and (max-width: 375px) {
+  .hero-title {
+    max-width: 335px;
+    font-size: 34px;
+  }
+  .hero-text {
+    max-width: 248px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .swiper {
+    max-width: 266px;
+    margin-right: 0;
+  }
+  .buttons-wrap {
+    max-width: 266px;
+    margin-right: 0;
+  }
+  .hero-wrap {
+    max-width: 335px;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  .hero-imd-thumb {
+    max-width: 335px;
+  }
+}
 
 /*---------------------Tablet-------------------------*/
 
@@ -193,9 +222,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .hero {
-    /* padding-bottom: 80px;*/
-  }
   .hero-container {
     position: relative;
   }
