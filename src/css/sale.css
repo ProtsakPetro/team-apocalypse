@@ -245,7 +245,7 @@ img {
   .sale-product-description-text::after {
     position: absolute;
     content: '';
-    display: block;
+    display: none;
     margin-top: 35px;
     width: 100%; 
     height: 1px;
@@ -255,7 +255,7 @@ img {
   .sale-product-price::after {
     position: absolute;
     content: '';
-    display: block;
+    display: none;
     margin-top: 94px;
     width: 100%; 
     height: 1px;
