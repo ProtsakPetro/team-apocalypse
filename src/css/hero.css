@@ -147,8 +147,8 @@
 }
 @media screen and (max-width: 375px) {
   .hero-title {
-    max-width: 335px;
-    font-size: 34px;
+    max-width: 280px;
+    font-size: 32px;
   }
   .hero-text {
     max-width: 248px;
