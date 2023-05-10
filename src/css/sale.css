@@ -18,8 +18,8 @@ img {
 }
 .sale-container {
   max-width: 375px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 .sale-section {
   margin-right: auto;
