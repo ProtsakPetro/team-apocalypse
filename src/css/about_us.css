@@ -41,6 +41,9 @@
 }
 
 .container-media {
+  display: none;
+}
+.container-media-foto {
   display: block;
   max-width: 335px;
   height: 365px;
@@ -91,8 +94,12 @@
     margin-top: 40px;
   }
   .container-media {
+    display: block;
     max-width: 704px;
     height: 465px;
+  }
+  .container-media-foto {
+    display: none;
   }
 }
 
