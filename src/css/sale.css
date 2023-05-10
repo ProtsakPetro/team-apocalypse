@@ -25,6 +25,8 @@ img {
   margin-right: auto;
   margin-left: auto;
   max-width: 375px;
+  padding-bottom: 80px;
+  padding-top: 40px;
 }
 .sale-header {
   font-family: 'Epilogue';
@@ -223,9 +225,6 @@ img {
   letter-spacing: -0.01em;
   color: rgba(20, 20, 20, 0.5);
 }
-.sale-product-details {
-  margin-bottom: 80px;
-}
 /* @media screen and (min-width: 375px) {
   .sale-container {
     width: 375px;
@@ -241,6 +240,8 @@ img {
   }
   .sale-section {
     max-width: 375px;
+    padding-bottom: 80px;
+    padding-top: 40px;
   }
   .sale-product-description-text::after {
     position: absolute;
@@ -293,6 +294,8 @@ img {
   }
   .sale-section {
     max-width: 768px;
+    padding-bottom: 128px;
+    padding-top: 64px;
   }
   .sale-header {
     font-family: 'Epilogue';
@@ -458,9 +461,6 @@ img {
     letter-spacing: -0.01em;
     color: rgba(20, 20, 20, 0.5);
   }
-  .sale-product-details {
-    margin-bottom: 128px;
-  }
 }
 @media screen and (min-width: 1280px) {
   .sale-container {
@@ -475,6 +475,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 160px;
+    padding-top: 80pxs;
   }
   .sale-gallery-block {
     gap: 0;
