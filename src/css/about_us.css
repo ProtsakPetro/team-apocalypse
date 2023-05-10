@@ -41,15 +41,13 @@
 }
 
 .container-media {
-  display: none;
-}
-.container-media-foto {
   display: block;
   max-width: 335px;
   height: 365px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .gif-content {
   margin-top: 40px;
   margin-left: auto;
@@ -98,9 +96,7 @@
     max-width: 704px;
     height: 465px;
   }
-  .container-media-foto {
-    display: none;
-  }
+  
 }
 
 @media screen and (min-width: 1280px) {
