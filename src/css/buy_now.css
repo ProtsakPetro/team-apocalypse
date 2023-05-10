@@ -14,8 +14,8 @@
 }
 .modal {
   width: 332px;
-  height: 1073px;
-  max-height: 80vh;
+  height: 101%;
+  overflow: auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -25,7 +25,12 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05), 0px 0px 130.6px rgba(0, 0, 0, 0.037963), 0px 0px 71.0296px rgba(0, 0, 0, 0.0303704), 0px 0px 36.2375px rgba(0, 0, 0, 0.025), 0px 0px 18.1704px rgba(0, 0, 0, 0.0196296), 0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
+  box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05),
+    0px 0px 130.6px rgba(0, 0, 0, 0.037963),
+    0px 0px 71.0296px rgba(0, 0, 0, 0.0303704),
+    0px 0px 36.2375px rgba(0, 0, 0, 0.025),
+    0px 0px 18.1704px rgba(0, 0, 0, 0.0196296),
+    0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
 }
 .is-hidden {
   opacity: 0;
@@ -107,10 +112,10 @@ svg #icon-mobile-x {
   outline: none;
   border-color: var(--primary-color);
 }
-.modal-form-input:not(:placeholder-shown):valid{
+.modal-form-input:not(:placeholder-shown):valid {
   border-color: green;
-}  
-.modal-form-input:not(:placeholder-shown):invalid    {
+}
+.modal-form-input:not(:placeholder-shown):invalid {
   border-color: red;
 }
 .modal-form-input::placeholder {
@@ -167,7 +172,7 @@ svg #icon-mobile-x {
 }
 .modal-form-btn:hover,
 .modal-form-btn:focus {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 8px;
 }
 .privacy-text {
@@ -187,18 +192,18 @@ svg #icon-mobile-x {
   color: rgba(20, 20, 20, 0.4);
 }
 @media screen and (min-width: 375px) {
-  .modal{
+  .modal {
     overflow: auto;
   }
   .privacy-text {
     padding-right: 10px;
   }
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .modal {
     width: 744px;
-    height: 670px;
-    max-height: 80vh;
+    height: 101%;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -213,7 +218,7 @@ svg #icon-mobile-x {
   }
   .modal-form {
     padding: 0 0 40px 0;
-}
+  }
   .modal-left {
     width: 276px;
     height: 375px;
@@ -242,7 +247,7 @@ svg #icon-mobile-x {
     line-height: 1.12;
   }
   .modal-form-btn {
-    width: 100%;
+    width: 101%;
   }
   .privacy-text {
     width: 100%;
@@ -252,8 +257,8 @@ svg #icon-mobile-x {
 @media screen and (min-width: 1280px) {
   .modal {
     width: 904px;
-    height: 694px;
-    max-height: 80vh;
+    height: 101%;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -268,7 +273,7 @@ svg #icon-mobile-x {
   }
   .modal-form {
     padding: 0 0 40px 0;
-}
+  }
   .modal-right {
     width: 508px;
   }
